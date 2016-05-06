@@ -1,0 +1,14 @@
+PODS:
+  - ColorLib (0.1.0)
+
+DEPENDENCIES:
+  - ColorLib (from `../`)
+
+EXTERNAL SOURCES:
+  ColorLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ColorLib: bfed2d2b848440ab4f568f54d2340afe7d2f2fbe
+
+COCOAPODS: 0.39.0

@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  s.description      = <<-DESC 
+			convert hex system or a color string to a color.Don't worry about the indent, we strip it!
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ColorLib"
+  s.homepage         = "https://github.com/<lxz555>/ColorLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "李雪智" => "xuezhi.li@husor.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ColorLib.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/<lxz555>/ColorLib.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
