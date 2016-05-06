@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorLib_Example', :exclusive => true do
+  pod 'ColorLib', :path => '../'
+end
+
+target 'ColorLib_Tests', :exclusive => true do
+  pod 'ColorLib', :path => '../'
+
+  
+end
