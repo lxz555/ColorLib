@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 			convert hex system or a color string to a color.Don't worry about the indent, we strip it!
                        DESC
 
-  s.homepage         = "https://github.com/<lxz555>/ColorLib"
+  s.homepage         = "https://github.com/lxz555/ColorLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "李雪智" => "xuezhi.li@husor.com" }
-  s.source           = { :git => "https://github.com/<lxz555>/ColorLib.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/lxz555/ColorLib.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
