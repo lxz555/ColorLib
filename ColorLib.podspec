@@ -4,6 +4,8 @@
 #
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.htm
+#
+
 Pod::Spec.new do |s|
   s.name             = "ColorLib"
   s.version          = "0.1.0"
@@ -16,24 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        convert hex system or a color string to a color.Don't worry about the indent, we strip it!
+		  convert hex system or a color string to a color.Don't worry about the indent, we strip it!
                        DESC
 
   s.homepage         = "https://github.com/lxz555/ColorLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "李雪智" => "xuezhi.li@husor.com" }
-  s.source           = { :git => "https://github.com/lxz555/ColorLib.git", :tag => s.version.to_s}
+  s.author           = { "李雪智" => "xuezhi.li@husor.com"  }
+  s.source           = { :git => "https://github.com/lxz555/ColorLib.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = ‘6.0’ 
-  s.source_files = 'ColorLib/Classes/**/*'
+  s.ios.deployment_target = '7.0' 
 
+  s.source_files = 'ColorLib/Classes/**/*'
+  
   # s.resource_bundles = {
-  #   'ColorLib' => ['ColorLib/Assets/*.png']
+  #   'ImitateCommonLib' => ['Pod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'AFNetworking', '~> 3.1.0'
+  #s.dependency 'FMDB', '~> 2.6.2'
 end
